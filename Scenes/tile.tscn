@@ -1,0 +1,147 @@
+[gd_scene load_steps=5 format=3 uid="uid://dv2mtv54jx3cm"]
+
+[ext_resource type="Script" uid="uid://djb6nbvowl4of" path="res://Scenes/tile.gd" id="1_n3f48"]
+[ext_resource type="Texture2D" uid="uid://bdgidxl26rfrd" path="res://edge.png" id="2_khers"]
+[ext_resource type="Texture2D" uid="uid://0hq43fto7cl7" path="res://edge2.png" id="3_g7l7l"]
+[ext_resource type="Texture2D" uid="uid://bipqon5hx6elm" path="res://edge3.png" id="4_y55j6"]
+
+[node name="Tile" type="Node2D"]
+position = Vector2(452, 274)
+scale = Vector2(0.3, 0.3)
+script = ExtResource("1_n3f48")
+
+[node name="Markers" type="Node2D" parent="." groups=["MarkerGroup"]]
+
+[node name="Marker2D" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(609, 343)
+
+[node name="Marker2D2" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(613.333, 733.333)
+
+[node name="Marker2D3" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(973.333, 530)
+
+[node name="Marker2D4" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(973.333, 140)
+
+[node name="Marker2D5" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(610, -56.6667)
+
+[node name="Marker2D6" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(246.667, 140)
+
+[node name="Marker2D7" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(246.667, 536.667)
+
+[node name="Marker2D8" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(250, 930)
+
+[node name="Marker2D9" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(613.333, 1123.33)
+
+[node name="Marker2D10" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(976.667, 923.333)
+
+[node name="Marker2D11" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(1336.67, 733.333)
+
+[node name="Marker2D12" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(1333.33, 340)
+
+[node name="Marker2D13" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(1330, -46.6667)
+
+[node name="Marker2D14" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(970, -250)
+
+[node name="Marker2D15" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(603.333, -453.333)
+
+[node name="Marker2D16" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(243.333, -260)
+
+[node name="Marker2D17" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(-110, -63.3334)
+
+[node name="Marker2D18" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(-110, 336.667)
+
+[node name="Marker2D19" type="Marker2D" parent="Markers" groups=["MarkerGroup"]]
+position = Vector2(-110, 730)
+
+[node name="Tiles" type="Node2D" parent="."]
+
+[node name="Tile" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile2" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile3" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile4" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile5" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile6" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile7" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile8" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile9" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile10" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile11" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile12" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile13" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile14" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile15" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile16" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile17" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile18" type="Sprite2D" parent="Tiles"]
+
+[node name="Tile19" type="Sprite2D" parent="Tiles"]
+
+[node name="Edges" type="Node2D" parent="."]
+
+[node name="Edge" type="Sprite2D" parent="Edges"]
+position = Vector2(-411, 470)
+scale = Vector2(1.96875, 2.21071)
+texture = ExtResource("2_khers")
+
+[node name="Edge2" type="Sprite2D" parent="Edges"]
+position = Vector2(999.277, -577.391)
+rotation = 2.07694
+scale = Vector2(1.93697, 2.38366)
+texture = ExtResource("3_g7l7l")
+
+[node name="Edge3" type="Sprite2D" parent="Edges"]
+position = Vector2(1241.61, 1112.52)
+rotation = -2.07694
+scale = Vector2(1.83685, 2.30514)
+texture = ExtResource("3_g7l7l")
+
+[node name="Edge4" type="Sprite2D" parent="Edges"]
+position = Vector2(1616.67, 200.083)
+rotation = -3.14159
+scale = Vector2(2.05522, 2.41004)
+texture = ExtResource("4_y55j6")
+
+[node name="Edge5" type="Sprite2D" parent="Edges"]
+position = Vector2(243.137, 1226.2)
+rotation = -1.0472
+scale = Vector2(2.12388, 2.49076)
+texture = ExtResource("4_y55j6")
+
+[node name="Edge6" type="Sprite2D" parent="Edges"]
+position = Vector2(-22.9081, -419.532)
+rotation = 1.0472
+scale = Vector2(1.88591, 2.48443)
+texture = ExtResource("4_y55j6")
